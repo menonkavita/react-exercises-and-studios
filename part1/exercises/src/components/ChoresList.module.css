@@ -1,14 +1,21 @@
 .choresText {
-   color: rgb(17, 86, 72);
+   color: rgb(23, 124, 104);
    font-size: 1.2vw;
    font-style: italic;
+   text-align: left;
+   padding-left: 2%;
+   padding-right: 2%;
 }
 
 .choresHeading {
    color: rgb(5, 131, 13);
    text-decoration: underline;
+   text-align: left;
+   padding-left: 1%;
+   padding-right: 1%;
 }
 
-ul.a {
-   list-style-type: circle;
- }
+.choresDiv{
+   padding-left: 2%;
+   padding-right: 2%;
+}

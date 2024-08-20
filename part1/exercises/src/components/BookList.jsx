@@ -9,9 +9,9 @@ export default function BookList() {
    return (
       <div class={classes.border}>
          <h3>{pageTitle}</h3>
-         <img src={book1} alt="The Well-Lived Life: A 103-Year-Old Doctor's Six Secrets to Health and Happiness at Every Age By Gladys McGarey" />
-         <img src={book2} alt="Worst Case Scenario: A Novel Kindle Edition by T.J. Newman" />
-         <img src={book3} alt="Laughing Without an Accent: Adventures of a Global Citizen by Firoozeh Dumas" />
+         <img src={book1} alt="The Well-Lived Life: A 103-Year-Old Doctor's Six Secrets to Health and Happiness at Every Age By Gladys McGarey" width ={200} height={300}/>
+         <img src={book2} alt="Worst Case Scenario: A Novel Kindle Edition by T.J. Newman"  width ={200} height={300}/>
+         <img src={book3} alt="Laughing Without an Accent: Adventures of a Global Citizen by Firoozeh Dumas"  width ={200} height={300}/>
       </div>      
    );
 }

@@ -1,3 +1,4 @@
+import classes from './HobbyLinks.module.css'
 
 export default function HobbyLinks() {
 
@@ -7,11 +8,14 @@ export default function HobbyLinks() {
         "https://www.lostideas.net/hobby-ideas/baking-hobby/"];
 
     return (
-        <div>
+        <div className={classes.hobbyDiv}>
             <h3>{pageTitle}</h3>
-            <a href={hobbyLinks[0]}>Hobby: Gardening is fulfilling</a>
-            <a href={hobbyLinks[1]}>Hobby: Photography is fun</a>
-            <a href={hobbyLinks[2]}>Hobby: Baking is relaxing</a>
+            <ul>
+                <li><a href={hobbyLinks[0]}>Gardening </a></li>
+                <li> <a href={hobbyLinks[1]}>Photography </a> </li>
+                <li> <a href={hobbyLinks[2]}>Baking </a> </li>
+            </ul>
         </div>
     );
 }
+

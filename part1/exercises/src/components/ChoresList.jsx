@@ -7,13 +7,13 @@ export default function ChoresList () {
    let chores3 = "Cleaning";
 
    return (
-      <div>
-         <h3 class={classes.choresHeading}>{pageTitle}</h3>
-         <ul class={classes.choresText}>
-            <ol>{chores1}</ol>
-            <ol>{chores2}</ol>
-            <ol>{chores3}</ol>
-         </ul>
+      <div className={classes.choresDiv}>
+         <h3 className={classes.choresHeading}>{pageTitle}</h3>
+         <ol className={classes.choresText}>
+            <li>{chores1}</li>
+            <li>{chores2}</li>
+            <li>{chores3}</li>
+         </ol>
       </div>
    );
 }

@@ -9,3 +9,8 @@
    color: rgb(107, 17, 17);
    text-align: left;
 }
+
+.movieDiv{
+   padding-left: 2%;
+   padding-right: 2%;
+}
