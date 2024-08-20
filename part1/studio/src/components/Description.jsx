@@ -10,7 +10,7 @@ function RecipeAuthor() {
         <div className={styles.recipeAuthorBlock}>
             <img src={authorPhoto} alt="Picture of Natasha Kravchuk" className={styles.imageUpdates} />
             <div>
-                <h3> {authorName} </h3>
+                <h3 className={styles.authorHeading}> {authorName} </h3>
                 <a href={authorLink}>Natasha's Kitchen</a>
             </div>
         </div>
@@ -23,8 +23,8 @@ class RecipeDescription extends React.Component {
         return (
             <div>
                 <div>
-                    <h1>Apple Pie with the Best Filling</h1>
-                    <p>Classic Apple Pie Recipe with an irresistible homemade apple pie filling. From the best flaky pie crust to the
+                    <h1 className={styles.titleText}>Apple Pie with the Best Filling</h1>
+                    <p className={styles.authorText}>Classic Apple Pie Recipe with an irresistible homemade apple pie filling. From the best flaky pie crust to the
                         generous saucy center, this recipe always gets glowing reviews. This is the pie everyone has to make for 
                         Thanksgiving!</p>
                 </div>

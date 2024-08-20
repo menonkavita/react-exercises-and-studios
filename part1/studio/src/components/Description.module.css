@@ -6,3 +6,20 @@
 .imageUpdates {
     object-fit: contain;
 }
+
+.authorHeading {
+    /* text-align: left; */
+    font-size: 2.5vw;
+    color: chocolate;
+}
+
+.authorText{
+    font-size: 1.25vw;
+    padding-left: 3%;
+    padding-right:3%;
+    text-align: justify;
+}
+
+.titleText{
+    color: rgb(170, 77, 12);
+}
