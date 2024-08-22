@@ -25,7 +25,7 @@ export default function MyProjects() {
       </button>
       <h2>{project.canvas} by {project.designer}
       </h2>
-      <img src={project.photoUrl} alt={project.alt} />
+      <img src={project.photoUrl} alt={project.alt} width="400" height= "300"/>
     </div>
   );
 }
