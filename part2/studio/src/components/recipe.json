@@ -1,17 +1,17 @@
 [
    {
-     "name": "Stovetop Mac and Cheese",
-     "author": "Stephanie Melchione",
-     "description": "This Creamy Stovetop Mac and Cheese is the BEST 30-minute meal for a busy week. Your family will love it every time!",
-     "website": "https://thecozycook.com/stovetop-mac-and-cheese/",
-     "recipeImage": "https://thecozycook.com/wp-content/uploads/2021/10/Stovetop-Mac-and-Cheese-2.jpg",
-     "authorImage": "https://thecozycook.com/wp-content/uploads/2021/11/The-Cozy-Cook.jpg",
+     "name": "Bittersweet Chocolate Maple Bark",
+     "author": "Bobby Flay",
+     "description": "This is recipe that feels indulgent but is packed full of healthful ingredients, and it just so happens to be directly from the pages of Bobby Flay's Fit Cookbook. Did you know that Bittersweet Chocolate (that is at least 71% cacao) is actually good for you? It's true!",
+     "website": "https://bobbyflay.com/daily-specials/bittersweet-chocolate-maple-bark",
+     "recipeImage": "https://api.bobbyflay.com/wp-content/uploads/2022/01/dsc09193-scaled.jpg",
+     "authorImage": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/1/0/BY2205_portrait.jpg",
      "ingredients": [
-       "uncooked macaroni",
-       "butter",
-       "flour",
-       "heavy cream",
-       "milk"
+       "1/2 cup uncooked quinoa",
+       "8 ounces bittersweet chocolate, coarsely chopped",
+       "3 tablespoons pure maple syrup",
+       "3/4 cup coarsely chopped almonds",
+       "1 tablespoon coconut oil or extra virgin olive oil"
      ]
    }
  ]
