@@ -11,8 +11,8 @@ export default function BoardAssignment() {
          "value": "Good"
       },
       {
-         "label": "Best",
-         "value": "Best"
+         "label": "Great",
+         "value": "Great"
       }
    ];
 
@@ -21,10 +21,10 @@ export default function BoardAssignment() {
       <option key={name.label} value={name.label}> {name.value} </option>
    );
 
-   const [boardName, setName] = useState("no boards yet!");
+   const [boardName, setName] = useState("no boards yet!");                         // Setting values via useState
 
    const handleChange = (event) => {
-      setName(event.target.value);              // setting boardName to value in event.target.value
+      setName(event.target.value);                                                 // setting boardName to value in event.target.value
    }
 
    return (
