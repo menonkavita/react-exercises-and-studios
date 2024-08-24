@@ -1,8 +1,10 @@
+import './styling.css';
+
 export default function HobbyIntroduction () {
    return(
       <div>
          <h2>3 Fun Facts About Gardening</h2>
-         <ol>
+         <ol className="hobbyDescription">
             <li>Gardening nurtures mind and body. It can be considered as an outlet to relieve stress. It can also improve an 
                individual's well-being in several ways.</li>
             <li>Connecting with nature has become a doorway to improved mood and relaxation. Today, it's proven that gardening 
