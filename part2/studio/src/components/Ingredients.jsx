@@ -3,7 +3,7 @@ import recipeData from './recipe.json';
 function IngredientList() {
 
   const list = recipeData[0].ingredients.map((item) => (
-    <li key={recipeData[0].ingredients.index}>
+    <li key={item}>
       {item}
     </li>
   ));

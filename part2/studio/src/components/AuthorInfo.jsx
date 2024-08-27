@@ -1,5 +1,5 @@
 import recipeData from './recipe.json';
-import styles from './styling.css';
+import './styling.css';
 
 function AuthorInfo() {
 

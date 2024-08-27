@@ -1,9 +1,13 @@
 import './styling.css';
+// import Button from "./Button";
 
 function ClickedButton() {
-  
+// alert("This pin has been saved to the board.");
+
   function handleClick() {
     alert("This pin has been removed from the board!");
+  //   props.saveButton= false;
+  //   Button(props);
   }
 
   return (
