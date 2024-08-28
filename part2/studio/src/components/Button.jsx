@@ -3,10 +3,10 @@ import ClickedButton from "./ClickedButton";
 import "./styling.css";
 
 
-function Button({ saveButton }) {
+function Button({saveButton, setButton}) {
+  console.log("In --- Button --- component");
 
-  return saveButton ? <SaveButton /> : <ClickedButton />;
-  // return saveButton ? <SaveButton saveButton={false} /> : <ClickedButton saveButton={true} />;
+  return saveButton ? <SaveButton setButton={false} /> : <ClickedButton  setButton={true}/>;
 }
 
 export default Button;

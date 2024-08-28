@@ -1,17 +1,21 @@
 import "./styling.css";
-// import Button from "./Button";
+import Button from "./Button";
 
-function SaveButton() {
-  // alert("This pin has been removed.");
+
+function SaveButton(setButton) {
+  console.log("In Save Button component");
 
   function handleClick() {
     alert("You are saving this pin!");
-    // props.saveButton= true;
-    // Button(props);
+    console.log("Save Button: Value in ", setButton);
+
+    return (
+      <Button setButton={setButton} />
+    )
   }
 
   return (
-    <button id="saveButton" onClick={handleClick}>
+    <button id="saveButton" onClick={handleClick} >
       Save
     </button>
   );
