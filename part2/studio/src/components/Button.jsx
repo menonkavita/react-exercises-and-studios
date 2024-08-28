@@ -1,10 +1,14 @@
 import SaveButton from "./SaveButton";
 import ClickedButton from "./ClickedButton";
 import "./styling.css";
+import { useState } from 'react';
 
-
-function Button({saveButton, setButton}) {
+function Button({saveButton}) {
   console.log("In --- Button --- component");
+  console.log("Button: Value in ", saveButton);
+
+  const [buttonSave, setButton] = useState(saveButton);
+
 
   return saveButton ? <SaveButton setButton={false} /> : <ClickedButton  setButton={true}/>;
 }

@@ -6,12 +6,12 @@ import AuthorInfo from "./components/AuthorInfo";
 import IngredientList from "./components/Ingredients";
 import RecipeImage from "./components/RecipeImage";
 import RecipeName from "./components/RecipeName";
-import { useState } from 'react';
+
 
 
 export default function App() {
 
-  const [buttonSave, setButton] = useState(true);
+  console.log("In App component");
 
   return (
     <>
@@ -19,8 +19,7 @@ export default function App() {
       <RecipeName />
       <RateARecipe rating={5} />
       <Button
-        saveButton={buttonSave}
-        setButton={setButton}
+        saveButton={true}
       />
       <AuthorInfo />
       <IngredientList />
